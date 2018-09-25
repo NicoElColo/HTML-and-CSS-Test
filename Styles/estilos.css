@@ -1,0 +1,97 @@
+.contenedor {
+	width: 100%;
+	margin: 0px auto;
+	max-width: 1200px;
+}
+body {
+	background: radial-gradient(black, #424242)
+}
+body header a img {
+	width: 100%;
+	text-align: center;
+}
+
+.menu {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: arial black;
+	background:#ff8000;
+}
+.menu li {
+	display: inline-block;
+}
+.menu li a {
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+	padding:15px 30px;
+	border: 5px solid #8e3813;
+	margin: 5px;
+}
+.menu li a:hover {
+	background: #dddd18
+}
+.main {
+	text-align: justify;
+	border: 5px solid #595959;
+	padding: 12px 22px;
+	font-size: 15px;
+	font-family: arial;
+	color: #031563;
+	background: #ededed;
+	width: 65%;
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+}
+
+aside {
+	display: inline-block;
+	width: 33%;
+	box-sizing: border-box;
+	float: right;
+	font-family: consolas;
+	background: #ff8000;
+	padding: 12px;
+	border: 5px solid #a03a03;
+}
+div.unico {
+	text-align: center;
+	text-decoration: underline;
+	font-family: arial black;
+	font-size: 20px;
+}
+span.under {
+	text-decoration: underline;
+}
+span.introduccion {
+	font-family: arial black;
+	text-decoration: underline;
+}
+section.wrapper h1 {
+	text-align: center;
+	background-color: #00d8ff;
+	font-size: 30px;
+	padding: 13px;
+}
+section.wrapper h2 {
+	text-align: right;
+	background-color: grey;
+	font-size: 14px;
+	padding: 9px;
+}
+
+.img {
+	width: 100%;
+}
+
+@media screen and (max-width: 500px){
+	.main {
+		width: 100%;
+	}
+	aside {
+		width: 100%;
+	}
+}
